@@ -19,35 +19,35 @@
 10. The variable 'length' is set as a constant variable, and is set to the length of the 'prices' array, therefore it should print a 3 in the output. 
 11. It's going to return the discounted prices stored in the *discounted* array. However, it would not be displayed in the terminal since no 'console.log(discounted)' was utilized. 
 12. 
-    A.  console.log(student.name); \\
-    B.  console.log(student['Grad Year']); \\
-    C.  student.greeting(); \\
-    D.  console.log(student['Favorite Teacher'].name); \\
-    E.  console.log(student.courseLoad[0]); \\
+    A.  console.log(student.name); </br>
+    B.  console.log(student['Grad Year']); </br>
+    C.  student.greeting(); </br>
+    D.  console.log(student['Favorite Teacher'].name); </br>
+    E.  console.log(student.courseLoad[0]); </br>
 13. 
-    A. 32 - Because integers map to their exact string representation.
-    B. 1 - Here it is not appending to the string, rather identifies the first as an integer and performs the subtraction. 
-    C. 3 - 3 + 0 ; For all maths and other comparisons *null* becomes 0. 
-    D. 3null - Maps null as a string representation. 
-    E. 4 - The boolean value of *true* is considered here and therefore can be replaced by a 1. 
-    F. 0 - The boolean value of *false* is considered in mathematical expressions and *null* also is considered as 0. 
-    G. 3undefined - Maps undefined as a string representation and appends it to the string '3'.
+    A. 32 - Because integers map to their exact string representation.</br>
+    B. 1 - Here it is not appending to the string, rather identifies the first as an integer and performs the subtraction. </br>
+    C. 3 - 3 + 0 ; For all maths and other comparisons *null* becomes 0. </br>
+    D. 3null - Maps null as a string representation. </br>
+    E. 4 - The boolean value of *true* is considered here and therefore can be replaced by a 1. </br>
+    F. 0 - The boolean value of *false* is considered in mathematical expressions and *null* also is considered as 0. </br>
+    G. 3undefined - Maps undefined as a string representation and appends it to the string '3'.</br>
     H. NaN - The value undefined should not be utilized in mathematical or comparison expressions because it gets turned into NaN.
 14. 
-    A. true - string '2' becomes a number 2
-    B. false - When comparing two strings Javascript utilizes *unicode* since the character '2' has a higher index than '12' it should be greater than the character '12'.
-    C. true - Utilizing '==' (regular equality check) **cannot** differentiate from different types.
-    D. false - Utilizing '===' (strict equality check) **can** differentiate from different types. 
-    E. false - Although the regular equality check cannot differentiate between different types, *true* would be considered in this situation as *1*.
-    F. true - The function is a boolean, same type as *true*, and since *Boolean(2)* returns *true*, then the output is **true**. 
+    A. true - string '2' becomes a number 2 </br>
+    B. false - When comparing two strings Javascript utilizes *unicode* since the character '2' has a higher index than '12' it should be greater than the character '12'. </br>
+    C. true - Utilizing '==' (regular equality check) **cannot** differentiate from different types. </br>
+    D. false - Utilizing '===' (strict equality check) **can** differentiate from different types. </br>
+    E. false - Although the regular equality check cannot differentiate between different types, *true* would be considered in this situation as *1*. </br>
+    F. true - The function is a boolean, same type as *true*, and since *Boolean(2)* returns *true*, then the output is **true**. </br>
 15. The difference between the '==' and the '===' operators is that in the case of '==' it is what is known as a *regular equality check* which means that it cannot differentiate between types. (E.g. It cannot differentiate 0 from false). On the other hand, '===' check the equality without type conversion. Meaning that if variable a & b, are different types it **will** return **false** automatically without an attempt to convert them. 
 16. Look on: part1/part1b-question16.js
 17. When the function is called with the parameters *modifyArray([1,2,3]. doSomething)*, the result will be the inputted array times 2. Thus, the program would output *[2,4,6]*. The way I got to this answer is by looking at the function, what it does, and then focusing on the inputs given to each parameter. For instance, the input of the variable *array* is given as *[1.2.3]*, and the variable *callback* calls the function *doSomething* which basically returns the multiplication of an number 'times' 2. Thus, we see that the for loop will loop a total of three times given the length of the array. Furthermore, each value of the array will be pushed into a *newArr* which will store the original array after passing through the *doSomething* function (After being multiplied by 2). Finally the *newArr* is returned. 
 18. Look on part1/part1b-question18.js
-19. The output of the code above would be:
-    1
-    4
-    3
-    2
+19. The output of the code above would be: </br>
+    1 </br>
+    4 </br>
+    3 </br>
+    2 </br>
     This is because 1,4 do not have a *setTimeout* attached to them, then *3* jas a timer of '0' but still has a delay, and lastly, *2* has a delay to appear in 3 seconds.
     
