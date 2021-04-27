@@ -19,11 +19,11 @@
 10. The variable 'length' is set as a constant variable, and is set to the length of the 'prices' array, therefore it should print a 3 in the output. 
 11. It's going to return the discounted prices stored in the *discounted* array. However, it would not be displayed in the terminal since no 'console.log(discounted)' was utilized. 
 12. 
-    A.  console.log(student.name);
-    B.  console.log(student['Grad Year']);
-    C.  student.greeting();
-    D.  console.log(student['Favorite Teacher'].name);
-    E.  console.log(student.courseLoad[0]);
+    A.  console.log(student.name); \\
+    B.  console.log(student['Grad Year']); \\
+    C.  student.greeting(); \\
+    D.  console.log(student['Favorite Teacher'].name); \\
+    E.  console.log(student.courseLoad[0]); \\
 13. 
     A. 32 - Because integers map to their exact string representation.
     B. 1 - Here it is not appending to the string, rather identifies the first as an integer and performs the subtraction. 
